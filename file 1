@@ -1,0 +1,72 @@
+Berikut adalah kode Java untuk project yang Anda minta:
+
+ 
+ 
+// Project: Tugas Mulana Malik Ibrahim Minggu 3
+
+// Class Employee
+public class Employee {
+    private String name;
+    private double salary;
+
+    // Getter and Setter methods
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+}
+
+// Class BankAccount
+public class BankAccount {
+    private String accountNumber;
+    private double balance;
+
+    // Getter and Setter methods
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+}
+
+// Main Class
+public class Main {
+    public static void main(String[] args) {
+        // Create object of Employee
+        Employee employee = new Employee();
+        employee.setName("John Doe");
+        employee.setSalary(5000000);
+        System.out.println("Employee Name: " + employee.getName());
+        System.out.println("Employee Salary: " + employee.getSalary());
+
+        // Create object of BankAccount
+        BankAccount bankAccount = new BankAccount();
+        bankAccount.setAccountNumber("1234567890");
+        bankAccount.setBalance(10000000);
+        System.out.println("Bank Account Number: " + bankAccount.getAccountNumber());
+        System.out.println("Bank Account Balance: " + bankAccount.getBalance());
+    }
+}
+ 
+ 
